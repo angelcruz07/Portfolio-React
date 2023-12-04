@@ -1,11 +1,11 @@
-import React from 'react'
-import '../css/logo.css'
-const Logo = ({title, href, src}) => {
-  return (
-    <a title={title}  href={href} className="logo">
-      <img src={src} alt={title}></img>
-      </a>
-  )
-}
+import React from 'react';
+import '../css/logo.css';
 
-export default Logo
+const Logo = (props) => {
+  return (
+    <a title={props.title} href={props.href} className="logo">
+      <img src={props.src} alt={props.title} />
+    </a>
+  );
+}
+export default Logo;

@@ -10,7 +10,6 @@ const NavBar = () => {
        <NavBarLink href="#skills">Skills</NavBarLink>
        <NavBarLink href="#contact">Contacto</NavBarLink>
     </nav>
-
   )
 }
 
