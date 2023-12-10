@@ -12,6 +12,7 @@
   --second-bg-color:#323946;
   --text-color:#fff;
   --main-color:#0ef;
+  
 }
 html { 
   font-size: 62.5%;
@@ -25,4 +26,8 @@ body {
 section { 
   min-height: 100vh;
   color: var(--text-color);
+  padding:2rem 9%;
+}
+span { 
+  color:var(--main-color);
 }
